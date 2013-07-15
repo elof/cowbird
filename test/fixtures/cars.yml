@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: cars
+#
+#  id           :integer          not null, primary key
+#  number_doors :string(255)
+#  services     :string(255)
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number_doors: MyString
+  services: MyString
+
+two:
+  number_doors: MyString
+  services: MyString

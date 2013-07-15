@@ -1,0 +1,32 @@
+header{
+	background: #67E667;
+	font-size: 60px;
+}
+.intro_one{
+background-color: #FF7373;
+padding: 25px 0 25px 0;
+}
+.intro_two{
+background-color: #FF9640;
+padding: 25px 0 25px 0;
+}
+body{
+background-color: #39E639;
+font-family: "helvetica", San Serif;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	background-color: #33CCCC;
+	padding: 20px 1000px 0 0;
+}
+footer ul{
+	padding-left: 20px;
+}
+.start{
+	background-color: #006363;
+	padding: 40px 100px;
+}
+.start link_to {
+	padding: 20px 50px;
+}

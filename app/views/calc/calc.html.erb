@@ -1,0 +1,83 @@
+<header class='q_one'>Tell us when you're usually available during the week.</header>
+
+<%= form_tag("/calc", {method: :post} ) do %>
+
+<div class='availablity'>
+
+<%= radio_button_tag(:availablity, 'weekends') %>
+<%= label_tag(:weekends, "I'm a weekend warrior.") %>
+
+<%= radio_button_tag(:availablity, 'week_day_evenings') %>
+<%= label_tag(:week_day_evenings, "I am available in the evenings.") %>
+
+<%= radio_button_tag(:availablity, 'week_days') %>
+<%= label_tag(:week_days, "I am availabls on the week days.") %>
+
+<%= radio_button_tag(:availablity, 'open') %>
+<%= label_tag(:open, "I'm free as a bird, let's fill up my scehdule.") %>
+
+<%= radio_button_tag(:availablity, 'no_availablity') %>
+<%= label_tag(:no_availablity, "Unfortunality, I'm soooo busy I can't spare any moments.") %>
+
+</div>
+
+<header class='q_two'>Now we're getting somewhere, how about your abode?</header>
+<header class='q_two'>Let us know if you can provide someone with a crashpad.</header>
+
+<div class='house'>
+
+<%= radio_button_tag(:house, 'room') %>
+<%= label_tag(:room, "I have a room.") %>
+
+<%= radio_button_tag(:house, 'apartment') %>
+<%= label_tag(:apartment, "I have a whole apartment.") %>
+
+<%= radio_button_tag(:house, 'house') %>
+<%= label_tag(:house, "I have a house.") %>
+
+<%= radio_button_tag(:house, 'no_room') %>
+<%= label_tag(:no_room, "No room in the inn, let's move along.") %>
+
+</div>
+
+<header class='q_three'>Next up, transportation!</header>
+
+<div class='car'>
+
+<%= radio_button_tag(:car, 'two_door') %>
+<%= label_tag(:two_door_car, "I have a two door car.") %>
+
+<%= radio_button_tag(:car, 'four_door') %>
+<%= label_tag(:four_door_car, "I have a four door car.") %>
+
+<%= radio_button_tag(:car, 'none') %>
+<%= label_tag(:no_car, "No car here friend.") %>
+
+</div>
+
+<br>
+
+<header class='q_four'>Ok, last but not least, check off a couple skills.</header>
+<header class='q_four'>We know you have ton's of them, but we can't list'm all</header>
+<header class='q_four'>So, just selcet from this list!</header>
+
+<div class='skill'>
+
+<%= check_box_tag(:returns) %>
+<%= label_tag(:returns, "I can return and exchange things for other people.") %>
+
+<%= check_box_tag(:photographer) %>
+<%= label_tag(:photographer, "I take pretty pictures.") %>
+
+<%= check_box_tag(:painter) %>
+<%= label_tag(:painter, "I may not be Da'Vinci, but I can paint a wall or two.") %>
+
+<%= check_box_tag(:grocery) %>
+<%= label_tag(:grocery, "I feel at peace when I grocery shop.") %>
+
+<%= check_box_tag(:yardwork) %>
+<%= label_tag(:yardwork, "Give me a shovel, I'll do the rest!") %>
+</div>
+
+<%= submit_tag "Submit" %>
+<% end %>

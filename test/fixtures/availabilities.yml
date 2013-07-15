@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: availabilities
+#
+#  id          :integer          not null, primary key
+#  day_of_week :string(255)
+#  time_of_day :string(255)
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  day_of_week: MyString
+  time_of_day: MyString
+
+two:
+  day_of_week: MyString
+  time_of_day: MyString
