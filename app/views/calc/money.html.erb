@@ -14,8 +14,7 @@ Ok, here are the companies you should sign-up for to start making some of this d
 <% if @has_car %>
 <%= link_to 'Getaround', 'http://www.getaround.com', :target => "_blank" %><% end %>
 <% if @has_four_car %>
-<%= link_to 'SideCar', 'http://www.side.cr', :target => "_blank" %><% end %>
-<% if @has_skills %>
+<%= link_to image_tag("sidecar.png", :class => 'sidecar_icon', :alt => "Sidecar"), "http://www.side.cr/drivers", :target => "_blank" %>
 <%= link_to 'Taskrabbit', 'http://www.taskrabbit.com', :target => "_blank" %>
 <% end %>
 </ul>
