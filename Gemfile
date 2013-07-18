@@ -23,6 +23,7 @@ group :assets do
   gem 'uglifier'
 end 
  
+gem "twitter-bootstrap-rails"
 
 gem 'jquery-rails'
 
