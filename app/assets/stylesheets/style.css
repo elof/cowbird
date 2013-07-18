@@ -1,6 +1,7 @@
 header{
 	background: #67E667;
-	font-size: 60px;
+	font-size: 50px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
 }
 .intro_one{
 background-color: #FF7373;
@@ -11,8 +12,10 @@ background-color: #FF9640;
 padding: 25px 0 25px 0;
 }
 body{
-background-color: #39E639;
+background-color: white;
 font-family: "helvetica", San Serif;
+margin: 0;
+text-decoration: none;
 }
 footer{
 	position: fixed;
@@ -29,4 +32,3 @@ footer ul{
 }
 .start link_to {
 	padding: 20px 50px;
-}

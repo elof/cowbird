@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-  	<meta charset="utf-8" />
 
-  
+<html 
+  <head>
 
   	<title><%= content_for?(:title) ? yield(:title) : "Cowbird" %></title>
 
-  	<%= stylesheet_link_tag    "style" %>
+  	<%= stylesheet_link_tag "style" %>
   	
   </head>
 
@@ -15,5 +13,7 @@
 
     <%= yield %>
 
+    
+    <%= javascript_include_tag "application" %>
   </body>
 </html>

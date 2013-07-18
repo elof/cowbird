@@ -47,6 +47,7 @@ GEM
     method_source (0.8.1)
     mime-types (1.23)
     multi_json (1.7.7)
+    pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -79,7 +80,6 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.9)
     slop (3.4.5)
     sprockets (2.2.2)
       hike (~> 1.2)
@@ -93,8 +93,6 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)
-    zurb-foundation (4.2.3)
-      sass (>= 3.2.0)
 
 PLATFORMS
   ruby
@@ -102,8 +100,8 @@ PLATFORMS
 DEPENDENCIES
   formtastic
   jquery-rails
+  pg
   pry
   pry-rails
   rails (= 3.2.13)
   sqlite3
-  zurb-foundation
