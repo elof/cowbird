@@ -5,6 +5,9 @@ Cowbird::Application.routes.draw do
  get  '/start' => 'calc#start'
  post '/calc'  => 'calc#calc'
  get  '/money' => 'calc#money' ,as: 'money'
- post  '/create' => 'calc#create'
- get '/done' => 'calc#done' , as: 'done'
+ post '/create' => 'calc#create'
+ get  '/done' => 'calc#done' , as: 'done'
+ get  '/about' => 'calc#about'
+ get  '/tsandcs' => 'calc#terms'
+ get  '/privacy' => 'calc#privacy'
 end
