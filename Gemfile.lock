@@ -32,6 +32,8 @@ GEM
     builder (3.0.4)
     coderay (1.0.9)
     erubis (2.7.0)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
     formtastic (2.2.1)
       actionpack (>= 3.0)
     hike (1.2.3)
@@ -93,6 +95,9 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)
+    uglifier (2.1.2)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
 
 PLATFORMS
   ruby
@@ -105,3 +110,4 @@ DEPENDENCIES
   pry-rails
   rails (= 3.2.13)
   sqlite3
+  uglifier
