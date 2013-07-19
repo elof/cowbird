@@ -147,3 +147,10 @@
 .pane.d .submit_tag{
 	text-align: center;
 }
+
+.company_result img{
+  width: 220px;
+}
+.company_result ul{
+margin: 0 15%;
+}

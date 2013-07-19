@@ -13,15 +13,12 @@
 	</div>
 	
 <div class='company_result'>
-<h3>
-These are the companies you can sign up to start making some money, check em out!
-</h3>
 <ul>
 <% if @has_house %>
 <%= link_to image_tag('airbnb.jpg', :class => 'airbnb_icon', :alt => 'Airbnb'), 'https://www.airbnb.com/rooms/new', :target => "_blank" %>
 <% end %>
 <% if @has_car %>
-<%= link_to image_tag('getaround.jpg', :class => 'getaround_icon', :alt => 'Getaround'), 'http://www.getaround.com', :target => "_blank" %>
+<%= link_to image_tag('getaround.png', :class => 'getaround_icon', :alt => 'Getaround'), 'http://www.getaround.com', :target => "_blank" %>
 <% end %>
 <% if @has_four_car %>
 <%= link_to image_tag("sidecar.png", :class => 'sidecar_icon', :alt => "Sidecar"), "http://www.side.cr/drivers", :target => "_blank" %>

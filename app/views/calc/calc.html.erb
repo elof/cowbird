@@ -81,10 +81,10 @@
 			<li>Once you've selected a couple click submit.</li>
 		</ul>
 		</div>
-				<div class='submit_tag'>
-				<%= submit_tag "Submit", :class => "btn btn-large btn-inverse" %>
-				<% end %>
-				</div>
+			<div class='submit_tag'>
+			<%= submit_tag "Submit", :class => "btn btn-large btn-inverse" %>
+			<% end %>
+			</div>
 		<div class='q'>
 				<div class='button ad'>
 				<%= check_box_tag(:returns) %>
@@ -113,6 +113,7 @@
 
 <script>
   $(document).ready(function() {
+
     $("label").on("click", function() {
       $.smoothScroll({
         scrollTarget: "#pane-b"
