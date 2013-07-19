@@ -1,0 +1,149 @@
+.pane.a .q{
+	margin: 0 0 0 75px;
+}
+.pane.a .q_one{
+	background: #67E667;
+	font-size: 36px;
+	font-weight: 200;
+	padding: 25px 0 25px 10px;
+	margin-bottom: 25px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #cecece;
+}
+.pane.b .q_two{
+	background: #67E667;
+	font-size: 36px;
+	font-weight: 200;
+	padding: 25px 0 25px 10px;
+	margin-bottom: 25px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #cecece;
+}
+.pane.b .q_two ul{
+	list-style-type: none;
+}
+.pane.c .q_three{
+	background: #67E667;
+	font-size: 50px;
+	font-weight: 200;
+	padding: 25px 0 25px 10px;
+	margin-bottom: 25px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #cecece;
+}
+.pane.d .q_four{
+	background: #67E667;
+	font-size: 30px;
+	font-weight: 200;
+	padding: 15px 0 15px 10px;
+	margin-bottom: 25px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #cecece;
+}
+.pane.d .q_four ul{
+	list-style-type: none;
+}
+
+.button input[type="radio"] {
+  position: absolute;
+}
+.button label {
+  width: 20%;
+  margin: 5px;
+  height: 250px;
+  width: 250px;
+  display: block;
+  float: left;
+  padding: 
+}
+
+.button.aa label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.ba label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.ca label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.da label{
+	background-image: url(img.png);
+  background-size: 200px;
+}
+.button.ea label{
+	background-image: url(img.png);
+  background-size: 200px;
+}
+
+.button.ab label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.bb label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.cb label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.db label{
+	background-image: url(img.png);
+  background-size: 200px;
+}
+
+.button.ac label{
+ 	background-image: url(img.png);
+  background-size: 200px;
+}
+.button.bc label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.cc label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+
+.button.ad label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.bd label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.cd label{
+  background-image: url(img.png);
+  background-size: 200px;
+}
+.button.dd label{
+	background-image: url(img.png);
+  background-size: 200px;
+}
+.button.ed label{
+	background-image: url(img.png);
+  background-size: 200px;
+}
+
+.pane {
+  height: 1000px;
+}
+.pane.a {
+  background: white;
+}
+.pane.b {
+  background: white;
+}
+.pane.c {
+  background: white;
+}
+.pane.d {
+  background: white;
+}
+.pane.d .submit_tag{
+	text-align: center;
+}

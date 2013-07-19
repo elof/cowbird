@@ -1,18 +1,24 @@
 <header>All Done</header>
 
-<h2>Tell your friends, chirp.</h2>
+<div class='twitter'>
+Tell your friends, chirp.
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.cowbird.co" data-text="What's your cowbird number? Find out now #sharingiscaring" data-size="large">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<br>
+</div>
+
+<div class='companies'>
 <h2>If you want to learn more or check out some other companies, here are some awesome links.</h2>
 <ul>
-<%= link_to image_tag("sidecar.png", :class => 'sidecar_icon', :alt => "Sidecar"), "http://www.side.cr/drivers", :target => "_blank" %>
+<%= link_to image_tag('sidecar.png', :class => 'sidecar_icon', :alt => 'Sidecar'), "http://www.side.cr/drivers", :target => "_blank" %>
 <%= link_to image_tag('lyft.png', :class => 'lyft_icon', :alt => 'Lyft'), 'http://www.lyft.me/drivers', :target => "_blank" %>
 <%= link_to image_tag('airbnb.jpg', :class => 'airbnb_icon', :alt => 'Airbnb'), 'https://www.airbnb.com/rooms/new', :target => "_blank" %>
-<%= link_to 'Uber', 'http://www.uber.com', :target => "_blank" %>
-<%= link_to 'Taskrabbit', 'http://www.taskrabbit.com', :target => "_blank" %>
-<%= link_to 'Getaround', 'http://www.getaround.com', :target => "_blank" %>
-<%= link_to 'Yerdle', 'http://www.yerdle.com', :target => "_blank" %>
+<%= link_to image_tag('uber.png', :class => 'uber_icon', :alt => 'Uber'), 'https://partners.uber.com/#!/uberx/sf', :target => "_blank" %>
+<%= link_to image_tag('taskrabbit.jpg', :class => 'taskrabbit_icon', :alt => 'Taskrabbit'), 'https://www.taskrabbit.com/become-a-taskrabbit', :target => "_blank" %>
+<%= link_to image_tag('getaround.jpg', :class => 'getaround_icon', :alt => 'Getaround'), 'http://www.getaround.com', :target => "_blank" %>
+<%= link_to image_tag('yerdle.jpg', :class => 'yerdle_icon', :alt => 'Yerdle'), 'http://www.yerdle.com', :target => "_blank" %>
 </ul>
+</div>
  
+<%= render :partial => 'footer' %>
+
 <%#= link_to image_tag("facebook.png", :class => "facebook_icon", :alt => "Facebook"), "http://www.facebook.com/mypage", :target => "_blank" %>

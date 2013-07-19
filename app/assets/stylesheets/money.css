@@ -1,0 +1,39 @@
+.money{
+	background: #67E667;
+	font-size: 36px;
+	font-weight: 200;
+	padding: 25px 0 25px 10px;
+	margin-bottom: 25px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #cecece;
+	list-style-type: none;
+}
+.next{
+	list-style-type: none;
+	color: #33CCCC;
+	font-size: 36px;
+	font-weight: 200;
+	padding: 25px 0 25px 10px;
+	text-align: center;
+}
+.company_reslut ul{
+	width: 200px;
+}
+.total{
+	font-weight: 500;
+	margin: 15px 100px;
+}
+.form{
+	color: #33CCCC;
+	font-size: 25px;
+	font-weight: 200;
+	list-style-type: none;
+	text-align: center;
+}
+.form ul{
+	font-size: 25px;
+	font-weight: 200;
+	list-style-type: none;
+	text-align: center;
+
+}
