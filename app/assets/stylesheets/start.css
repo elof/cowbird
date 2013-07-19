@@ -58,75 +58,81 @@
 }
 
 .button.aa label{
-  background-image: url(img.png);
+  background-image: url(days.jpeg);
   background-size: 200px;
 }
 .button.ba label{
-  background-image: url(img.png);
+  background-image: url(days.jpeg);
   background-size: 200px;
 }
 .button.ca label{
-  background-image: url(img.png);
+  background-image: url(days.jpeg);
   background-size: 200px;
 }
 .button.da label{
-	background-image: url(img.png);
+	background-image: url(days.jpeg);
   background-size: 200px;
 }
 .button.ea label{
-	background-image: url(img.png);
+	background-image: url(days.jpeg);
   background-size: 200px;
 }
 
 .button.ab label{
-  background-image: url(img.png);
+  background-image: url(house.jpeg);
   background-size: 200px;
 }
 .button.bb label{
-  background-image: url(img.png);
+  background-image: url(house.jpeg);
   background-size: 200px;
 }
 .button.cb label{
-  background-image: url(img.png);
+  background-image: url(house.jpeg);
   background-size: 200px;
 }
 .button.db label{
-	background-image: url(img.png);
+	background-image: url(house.jpeg);
   background-size: 200px;
 }
 
 .button.ac label{
- 	background-image: url(img.png);
+ 	background-image: url(car.jpeg);
   background-size: 200px;
 }
 .button.bc label{
-  background-image: url(img.png);
+  background-image: url(car.jpeg);
   background-size: 200px;
 }
 .button.cc label{
-  background-image: url(img.png);
+  background-image: url(car.jpeg);
   background-size: 200px;
 }
 
 .button.ad label{
-  background-image: url(img.png);
+  background-image: url(skills.jpeg);
   background-size: 200px;
 }
 .button.bd label{
-  background-image: url(img.png);
+  background-image: url(skills.jpeg);
   background-size: 200px;
 }
 .button.cd label{
-  background-image: url(img.png);
+  background-image: url(skills.jpeg);
   background-size: 200px;
 }
 .button.dd label{
-	background-image: url(img.png);
+	background-image: url(skills.jpeg);
   background-size: 200px;
 }
 .button.ed label{
-	background-image: url(img.png);
+	background-image: url(skills.jpeg);
   background-size: 200px;
+}
+.button img{
+  width: 200px;
+}
+.button{
+  color: black;
 }
 
 .pane {
