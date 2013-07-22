@@ -54,7 +54,7 @@
 }
 .button input[type="radio"] {
   position: absolute;
-  display: none;
+  
 }
 .button label {
   margin: 5px;
@@ -65,91 +65,91 @@
 }
 
 .button.aa label{
-  background-image: url(days.jpeg);
+  background-image: url(../assets/days.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.ba label{
-  background-image: url(days.jpeg);
+  background-image: url(../assets/days.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.ca label{
-  background-image: url(days.jpeg);
+  background-image: url(../assets/days.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.da label{
-	background-image: url(days.jpeg);
+	background-image: url(../assets/days.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.ea label{
-	background-image: url(days.jpeg);
+	background-image: url(../assets/days.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .button.ab label{
-  background-image: url(house.jpeg);
+  background-image: url(../assets/house.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.bb label{
-  background-image: url(house.jpeg);
+  background-image: url(../assets/house.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.cb label{
-  background-image: url(house.jpeg);
+  background-image: url(../assets/house.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.db label{
-	background-image: url(house.jpeg);
+	background-image: url(../assets/house.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .button.ac label{
- 	background-image: url(car.jpeg);
+ 	background-image: url(../assets/car.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.bc label{
-  background-image: url(car.jpeg);
+  background-image: url(../assets/car.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.cc label{
-  background-image: url(car.jpeg);
+  background-image: url(../assets/car.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .button.ad label{
-  background-image: url(skills.jpeg);
+  background-image: url(../assets/skills.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 
 }
 .button.bd label{
-  background-image: url(skills.jpeg);
+  background-image: url(../assets/skills.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.cd label{
-  background-image: url(skills.jpeg);
+  background-image: url(../assets/skills.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.dd label{
-	background-image: url(skills.jpeg);
+	background-image: url(../assets/skills.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.ed label{
-	background-image: url(skills.jpeg);
+	background-image: url(../assets/skills.jpeg);
   background-size: 200px;
   background-repeat: no-repeat;
 }
