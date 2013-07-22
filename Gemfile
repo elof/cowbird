@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby "1.9.3"
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -7,6 +7,8 @@ gem 'rails', '3.2.13'
 
 group :development do
 	gem 'sqlite3'
+	gem 'pry'
+gem 'pry-rails'
 end
 
 group :production do
@@ -14,8 +16,7 @@ group :production do
 end
 
 gem 'formtastic'
-gem 'pry'
-gem 'pry-rails'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
