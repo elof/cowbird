@@ -81,10 +81,6 @@
 			<li>Once you've selected a couple click submit.</li>
 		</ul>
 		</div>
-			<div class='submit_tag'>
-			<%= submit_tag "Submit", :class => "btn btn-large btn-inverse" %>
-			<% end %>
-			</div>
 		<div class='q'>
 				<div class='button ad'>
 				<%= check_box_tag(:returns) %>
@@ -107,17 +103,32 @@
 				<%= label_tag(:yardwork, "Give me a shovel, I'll do the rest!") %>
 				</div>
 		</div>
+		<div class='submit_tag'>
+		<%= submit_tag "Submit", :class => "btn btn-large btn-inverse" %>
+		<% end %>
+	</div>
 	</div>
 </div>
 </section>
 
 <script>
+
   $(document).ready(function() {
 
     $("label").on("click", function() {
-      $.smoothScroll({
-        scrollTarget: ".pane-b"
-      });
+    	switch (this.parentElement.parentElement.parentElement.children[0].className) {
+
+    		case "q_one": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_two"}); break;
+
+    		case "q_two": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_three"}); break;
+
+    		case "q_three": $.smoothScroll({ scrollTarget: ".q_four"}); break;
+
+    	}
+    	
     });
-  })
+
+  });
+
 </script>
+

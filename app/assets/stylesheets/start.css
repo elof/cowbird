@@ -43,96 +43,115 @@
 .pane.d .q_four ul{
 	list-style-type: none;
 }
-
-.button input[type="radio"] {
+.button input[type="checkbox"] {
   position: absolute;
 }
+.button{
+  color: black;
+}
+.button img{
+  width: 200px;
+}
+.button input[type="radio"] {
+  position: absolute;
+  display: none;
+}
 .button label {
-  width: 20%;
   margin: 5px;
   height: 250px;
   width: 250px;
   display: block;
   float: left;
-  padding: 
 }
 
 .button.aa label{
   background-image: url(days.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.ba label{
   background-image: url(days.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.ca label{
   background-image: url(days.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.da label{
 	background-image: url(days.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.ea label{
 	background-image: url(days.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 
 .button.ab label{
   background-image: url(house.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.bb label{
   background-image: url(house.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.cb label{
   background-image: url(house.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.db label{
 	background-image: url(house.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 
 .button.ac label{
  	background-image: url(car.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.bc label{
   background-image: url(car.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.cc label{
   background-image: url(car.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 
 .button.ad label{
   background-image: url(skills.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
+
 }
 .button.bd label{
   background-image: url(skills.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.cd label{
   background-image: url(skills.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.dd label{
 	background-image: url(skills.jpeg);
   background-size: 200px;
+  background-repeat: no-repeat;
 }
 .button.ed label{
 	background-image: url(skills.jpeg);
   background-size: 200px;
-}
-.button img{
-  width: 200px;
-}
-.button{
-  color: black;
+  background-repeat: no-repeat;
 }
 
 .pane {
@@ -159,4 +178,7 @@
 }
 .company_result ul{
 margin: 0 15%;
+}
+.submit_tag{
+  position: ;
 }
