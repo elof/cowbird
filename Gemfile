@@ -8,7 +8,11 @@ gem 'rails', '3.2.13'
 group :development do
 	gem 'sqlite3'
 	gem 'pry'
-gem 'pry-rails'
+	gem 'pry-rails'
+end
+
+group :development, :test do
+	gem 'rspec-rails'
 end
 
 group :production do
