@@ -7,11 +7,12 @@ describe CalcController do
 		sign_in
 end
 
+
+
 describe '#create' do
 	before each do
 		it 'creates a new user' do
-			expect{
-
-			}
+			user.new, {id: user.name}
+			expect(response).to render_template(:user)
 		end
 	end
