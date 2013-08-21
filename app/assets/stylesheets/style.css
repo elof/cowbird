@@ -1,41 +1,35 @@
 header{
   background: #67E667;
   font-size: 50px;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-weight: 200;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
   padding: 40px 0 40px 10px; 
 }
-header a:link, a:visited{
-  text-decoration: none;
-}
 body{
-  font-family: 'Raleway', sans-serif;
   margin: 0;
-  text-decoration: none;
   color: white;
 }
 a:link, a:visited{
   text-decoration: none;
   color: white;
 }
-.intro_one{
-  background-color: #FF7373;
+.intro_one, .intro_two {
   padding: 25px 0 25px 0;
   color: white;
   font-weight: 200;
   font-size: 30px;
   padding-left: 10px;
+}
+.intro_one{
+  background-color: #FF7373;
 }
 .intro_two{
   background-color: #FF9640;
-  padding: 25px 0 25px 0;
-  color: white;
-  font-weight: 200;
-  font-size: 30px;
-  padding-left: 10px;
 }
 .start{
+  font-family: 'Raleway', sans-serif;
   padding: 60px 0 120px 380px;
   text-align: center;
   font-weight: 200;
