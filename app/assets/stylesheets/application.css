@@ -1,5 +1,9 @@
-/* ...
-*= require_self
-*= require_tree .
-*/
+/*
+ *= require_self
+ *= require style
+ *= require start
+ *= require money
+ *= require done
+ *= require bootstrap
+ */
 
