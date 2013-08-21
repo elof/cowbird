@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html 
+<html>
   <head>
 
   	<title><%= content_for?(:title) ? yield(:title) : "Cowbird" %></title>
@@ -13,15 +13,11 @@
     <%= stylesheet_link_tag "money" %>
     <%= stylesheet_link_tag "done" %>
     <%= stylesheet_link_tag "bootstrap" %>
-
-  
   </head>
 
   <body>
-
     <%= yield %>
 
-    
     <%= javascript_include_tag "application" %>
   </body>
 </html>
