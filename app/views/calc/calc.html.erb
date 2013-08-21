@@ -2,112 +2,112 @@
 <div class='calc_form'>
 <%= form_tag("/calc", {method: :post} ) do %>
 
-	<div class='pane a'>
-		<div class='q_one'>Tell us when you're usually available during the week.</div>
-		<div class='q'>
-			<div class='button aa'>
-			<%= radio_button_tag(:availablity, 'weekends', :id => 'weekends') %>
-			<%= label_tag(:weekends, "I'm a weekend warrior.", :for => 'weekends') %>
-			</div>
-			<div class='button ba'>
-			<%= radio_button_tag(:availablity, 'week_day_evenings', :id => 'weekends') %>
-			<%= label_tag(:week_day_evenings, "I am available in the evenings.", :for => 'weekends') %>
-			</div>
-			<div class='button ca'>
-			<%= radio_button_tag(:availablity, 'week_days', :id => 'weekends') %>
-			<%= label_tag(:week_days, "I am availabls on the week days.", :for => 'weekends') %>
-			</div>
-			<div class='button da'>
-			<%= radio_button_tag(:availablity, 'open', :id => 'weekends') %>
-			<%= label_tag(:open, "I'm free as a bird, let's fill up my scehdule.", :for => 'weekends') %>
-			</div>
-			<div class='button ea'>
-			<%= radio_button_tag(:availablity, 'no_availablity', :id => 'weekends') %>
-			<%= label_tag(:no_availablity, "Unfortunality, I'm soooo busy I can't spare any moments.", :for => 'weekends') %>
-			</div>
-		</div>
-	</div>
+  <div class='pane a'>
+    <div class='q_one'>Tell us when you're usually available during the week.</div>
+    <div class='q'>
+      <div class='button aa'>
+        <%= radio_button_tag(:availablity, 'weekends', :id => 'weekends') %>
+        <%= label_tag(:weekends, "I'm a weekend warrior.", :for => 'weekends') %>
+      </div>
+      <div class='button ba'>
+        <%= radio_button_tag(:availablity, 'week_day_evenings', :id => 'weekends') %>
+        <%= label_tag(:week_day_evenings, "I am available in the evenings.", :for => 'weekends') %>
+      </div>
+      <div class='button ca'>
+        <%= radio_button_tag(:availablity, 'week_days', :id => 'weekends') %>
+        <%= label_tag(:week_days, "I am availabls on the week days.", :for => 'weekends') %>
+      </div>
+      <div class='button da'>
+        <%= radio_button_tag(:availablity, 'open', :id => 'weekends') %>
+        <%= label_tag(:open, "I'm free as a bird, let's fill up my scehdule.", :for => 'weekends') %>
+      </div>
+      <div class='button ea'>
+        <%= radio_button_tag(:availablity, 'no_availablity', :id => 'weekends') %>
+        <%= label_tag(:no_availablity, "Unfortunality, I'm soooo busy I can't spare any moments.", :for => 'weekends') %>
+      </div>
+    </div>
+  </div>
 
-	<div class='pane b'>
-		<div class='q_two'>
-			<ul>
-			<li>Now we're getting somewhere, how about your abode?</li><br>
-			<li>Let us know if you can provide someone with a crashpad.</li>
-			</ul>
-		</div>
-		<div class='q'>
-			<div class='button ab'>
-			<%= radio_button_tag(:house, 'room', :id => 'house') %>
-			<%= label_tag(:room, "I have a room.", :for => 'house') %>
-			</div>
-			<div class='button bb'>
-			<%= radio_button_tag(:house, 'apartment', :id => 'house') %>
-			<%= label_tag(:apartment, "I have a whole apartment.", :for => 'house') %>
-			</div>
-			<div class='button cb'>
-			<%= radio_button_tag(:house, 'house', :id => 'house') %>
-			<%= label_tag(:house, "I have a house.", :for => 'house') %>
-			</div>
-			<div class='button db'>
-			<%= radio_button_tag(:house, 'no_room', :id => 'house') %>
-			<%= label_tag(:no_room, "No room in the inn, let's move along.", :for => 'house') %>
-			</div>	
-		</div>
-	</div>
+  <div class='pane b'>
+    <div class='q_two'>
+      <ul>
+        <li>Now we're getting somewhere, how about your abode?</li><br>
+        <li>Let us know if you can provide someone with a crashpad.</li>
+      </ul>
+    </div>
+    <div class='q'>
+      <div class='button ab'>
+        <%= radio_button_tag(:house, 'room', :id => 'house') %>
+        <%= label_tag(:room, "I have a room.", :for => 'house') %>
+      </div>
+      <div class='button bb'>
+        <%= radio_button_tag(:house, 'apartment', :id => 'house') %>
+        <%= label_tag(:apartment, "I have a whole apartment.", :for => 'house') %>
+      </div>
+      <div class='button cb'>
+        <%= radio_button_tag(:house, 'house', :id => 'house') %>
+        <%= label_tag(:house, "I have a house.", :for => 'house') %>
+      </div>
+      <div class='button db'>
+        <%= radio_button_tag(:house, 'no_room', :id => 'house') %>
+        <%= label_tag(:no_room, "No room in the inn, let's move along.", :for => 'house') %>
+      </div>  
+    </div>
+  </div>
 
-	<div class='pane c'>
-		<div class='q_three'>Next up, transportation!</div>
-		<div class='q'>
-			<div class='button ac'>
-			<%= radio_button_tag(:car, 'two_door', :id => 'car') %>
-			<%= label_tag(:two_door_car, "I have a two door car.", :for => 'car') %>
-			</div>
-			<div class='button bc'>
-			<%= radio_button_tag(:car, 'four_door', :id => 'car') %>
-			<%= label_tag(:four_door_car, "I have a four door car.", :for => 'car') %>
-			</div>
-			<div class='button cc'>
-			<%= radio_button_tag(:car, 'none', :id => 'car') %>
-			<%= label_tag(:no_car, "No car here friend.", :for => 'car') %>
-			</div>
-		</div>
-	</div>
+  <div class='pane c'>
+    <div class='q_three'>Next up, transportation!</div>
+    <div class='q'>
+      <div class='button ac'>
+        <%= radio_button_tag(:car, 'two_door', :id => 'car') %>
+        <%= label_tag(:two_door_car, "I have a two door car.", :for => 'car') %>
+      </div>
+      <div class='button bc'>
+        <%= radio_button_tag(:car, 'four_door', :id => 'car') %>
+        <%= label_tag(:four_door_car, "I have a four door car.", :for => 'car') %>
+      </div>
+      <div class='button cc'>
+        <%= radio_button_tag(:car, 'none', :id => 'car') %>
+        <%= label_tag(:no_car, "No car here friend.", :for => 'car') %>
+      </div>
+    </div>
+  </div>
 
-	<div class='pane d'>		
-		<div class='q_four'>
-			<ul>
-			<li>Ok, last but not least, check off a couple skills.</li><br>
-			<li>We know you have ton's of them, but we can't list'm all<li><br>
-			<li>Once you've selected a couple click submit.</li>
-		</ul>
-		</div>
-		<div class='q'>
-				<div class='button ad'>
-				<%= check_box_tag(:returns) %>
-				<%= label_tag(:returns, "I can return and exchange things for other people.") %>
-				</div>
-				<div class='button bd'>
-				<%= check_box_tag(:photographer) %>
-				<%= label_tag(:photographer, "I take pretty pictures.") %>
-				</div>
-				<div class='button cd'>
-				<%= check_box_tag(:painter) %>
-				<%= label_tag(:painter, "I may not be Da'Vinci, but I can paint a wall or two.") %>
-				</div>
-				<div class='button dd'>
-				<%= check_box_tag(:grocery) %>
-				<%= label_tag(:grocery, "I feel at peace when I grocery shop.") %>
-				</div>
-				<div class='button ed'>
-				<%= check_box_tag(:yardwork) %>
-				<%= label_tag(:yardwork, "Give me a shovel, I'll do the rest!") %>
-				</div>
-		</div>
-		<div class='submit_tag'>
-		<%= submit_tag "Submit", :class => "btn btn-large btn-inverse" %>
-		<% end %>
-	</div>
-	</div>
+  <div class='pane d'>    
+    <div class='q_four'>
+      <ul>
+      <li>Ok, last but not least, check off a couple skills.</li><br>
+      <li>We know you have ton's of them, but we can't list'm all<li><br>
+      <li>Once you've selected a couple click submit.</li>
+    </ul>
+    </div>
+    <div class='q'>
+      <div class='button ad'>
+        <%= check_box_tag(:returns) %>
+        <%= label_tag(:returns, "I can return and exchange things for other people.") %>
+      </div>
+      <div class='button bd'>
+        <%= check_box_tag(:photographer) %>
+        <%= label_tag(:photographer, "I take pretty pictures.") %>
+      </div>
+      <div class='button cd'>
+        <%= check_box_tag(:painter) %>
+        <%= label_tag(:painter, "I may not be Da'Vinci, but I can paint a wall or two.") %>
+      </div>
+      <div class='button dd'>
+        <%= check_box_tag(:grocery) %>
+        <%= label_tag(:grocery, "I feel at peace when I grocery shop.") %>
+      </div>
+      <div class='button ed'>
+        <%= check_box_tag(:yardwork) %>
+        <%= label_tag(:yardwork, "Give me a shovel, I'll do the rest!") %>
+      </div>
+    </div>
+    <div class='submit_tag'>
+      <%= submit_tag "Submit", :class => "btn btn-large btn-inverse" %>
+    </div>
+  </div>
+<% end %>
 </div>
 </section>
 
@@ -116,29 +116,20 @@
   $(document).ready(function() {
 
     $("label").on("click", function() {
-    	switch (this.parentElement.parentElement.parentElement.children[0].className) {
+      switch (this.parentElement.parentElement.parentElement.children[0].className) {
 
-    		case "q_one": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_two"}); break;
+        case "q_one": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_two"}); break;
 
-    		case "q_two": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_three"}); break;
+        case "q_two": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_three"}); break;
 
-    		case "q_three": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_four"}); break;
+        case "q_three": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_four"}); break;
 
-    	}
-    	
+      }
+      
     });
 
   });
 
 </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-42632860-1', 'cowbird.co');
-  ga('send', 'pageview');
-
-</script>
+<%= render partial: 'google_analytics' %>

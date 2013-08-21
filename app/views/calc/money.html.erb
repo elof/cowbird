@@ -1,51 +1,58 @@
 <div class='result'>
-	<div class='money'>
-		<li>Based on the info you gave me,</li><br>
-		<li>you could make this much per month:</li><br>
-		<li><div class='total'>
-			<%= number_to_currency(@total_value) %>
-				</div>
-	</div>
-	
-	<div class='next'>
-		<li>You make all this extra money by signing up</li><br>
-		<li>and starting to work with the companie's' below.</li><br>
-	</div>
-	
+  <div class='money'>
+    <li>Based on the info you gave me,</li><br>
+    <li>you could make this much per month:</li><br>
+    <li>
+      <div class='total'>
+        <%= number_to_currency(@total_value) %>
+      </div>
+    </li>
+  </div>
+
+  <div class='next'>
+    <li>You make all this extra money by signing up</li><br>
+    <li>and starting to work with the companie's' below.</li><br>
+  </div>
+
 <div class='company_result'>
-<ul>
-<% if @has_house %>
-<%= link_to image_tag('../assets/airbnb.jpg', :class => 'airbnb_icon', :alt => 'Airbnb'), 'https://www.airbnb.com/rooms/new', :target => "_blank" %>
-<% end %>
+  <ul>
+    <% if @has_house %>
+      <%= link_to 'https://www.airbnb.com/rooms/new', :target => "_blank" do %>
+        <%= image_tag 'airbnb.jpg', :class => 'airbnb_icon', :alt => 'Airbnb' %>
+      <% end %>
+    <% end %>
 
-<%# if @has_car %>
-<%#= link_to image_tag('../assets/getaround.png', :class => 'getaround_icon', :alt => 'Getaround'), 'http://www.getaround.com', :target => "_blank" %>
-<%# end %>
+    <% if @has_four_car %>
+      <%= link_to "http://www.side.cr/drivers", :target => "_blank" do %>
+        <%= image_tag "sidecar.png", :class => 'sidecar_icon', :alt => "Sidecar" %>
+      <% end %>
 
-<% if @has_four_car %>
-<%= link_to image_tag("../assets/sidecar.png", :class => 'sidecar_icon', :alt => "Sidecar"), "http://www.side.cr/drivers", :target => "_blank" %>
-<%= link_to image_tag('../assets/getaround.png', :class => 'getaround_icon', :alt => 'Getaround'), 'http://www.getaround.com', :target => "_blank" %>
-<% end %>
+      <%= link_to 'http://www.getaround.com', :target => "_blank" do %>
+        <%= image_tag 'getaround.png', :class => 'getaround_icon', :alt => 'Getaround' %>
+      <% end %>
+    <% end %>
 
-<% if @has_skills %>
-<%= link_to image_tag('../assets/taskrabbit.jpg', :class => 'taskrabbit_icon', :alt => 'Taskrabbit'), 'https://www.taskrabbit.com/become-a-taskrabbit', :target => "_blank" %>
-<% end %>
-</ul>
+    <% if @has_skills %>
+      <%= link_to 'https://www.taskrabbit.com/become-a-taskrabbit', :target => "_blank" do %>
+        <%= image_tag 'taskrabbit.jpg', :class => 'taskrabbit_icon', :alt => 'Taskrabbit' %>
+      <% end %>
+    <% end %>
+  </ul>
 </div>
 
 <div class='form'>
-<ul>
-<li>Give us your email address and location and we will keep you up to date</li><br> 
-<li>with the latest from the sharinging economy</li><br>
-<li>and whats going on in your area.</li>
-</ul>
-	<div class="user_form">
-		<%= form_for :user, :url => {:action => :create} do |f| %>
-	  <%= f.label :email %>:
-	  <%= f.text_field :email %>
-	  <%= f.label :location %>:
-	  <%= f.text_field :location %><br>
-	  <%= f.submit %>
-		<% end %>
-	</div>
+  <ul>
+    <li>Give us your email address and location and we will keep you up to date</li><br>
+    <li>with the latest from the sharinging economy</li><br>
+    <li>and whats going on in your area.</li>
+  </ul>
+  <div class="user_form">
+    <%= form_for :user, :url => {:action => :create} do |f| %>
+      <%= f.label :email %>:
+      <%= f.text_field :email %>
+      <%= f.label :location %>:
+      <%= f.text_field :location %><br>
+      <%= f.submit %>
+    <% end %>
+  </div>
 </div>

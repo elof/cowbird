@@ -1,59 +1,27 @@
 .pane.a .q{
-	margin: 0 0 0 75px;
+  margin: 0 0 0 75px;
 }
-.pane.a .q_one{
-	background: #67E667;
-	font-size: 36px;
-	font-weight: 200;
-	padding: 25px 0 25px 10px;
-	margin-bottom: 25px;
-	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
-	border: 1px solid #cecece;
-  font-family: 'Raleway', sans-serif;
+.pane.a .q_one,
+.pane.b .q_two,
+.pane.c .q_three,
+.pane.d .q_four {
+  background: #67E667;
+  font-size: 36px;
+  font-weight: 200;
+  padding: 25px 0 25px 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #cecece;
   color: white;
   font-weight: 200;
-}
-.pane.b .q_two{
-	background: #67E667;
-	font-size: 36px;
-	font-weight: 200;
-	padding: 25px 0 25px 10px;
-	margin-bottom: 25px;
-	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
-	border: 1px solid #cecece;
   font-family: 'Raleway', sans-serif;
-  color: white;
-  font-weight: 200;
 }
+
 .pane.b .q_two ul{
-	list-style-type: none;
-}
-.pane.c .q_three{
-	background: #67E667;
-	font-size: 50px;
-	font-weight: 200;
-	padding: 25px 0 25px 10px;
-	margin-bottom: 25px;
-	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
-	border: 1px solid #cecece;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-weight: 200;
-}
-.pane.d .q_four{
-	background: #67E667;
-	font-size: 30px;
-	font-weight: 200;
-	padding: 15px 0 15px 10px;
-	margin-bottom: 25px;
-	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
-	border: 1px solid #cecece;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-weight: 200;
+  list-style-type: none;
 }
 .pane.d .q_four ul{
-	list-style-type: none;
+  list-style-type: none;
 }
 .button input[type="checkbox"] {
   position: absolute;
@@ -67,9 +35,9 @@
 .button input[type="radio"] {
   position: absolute;
   display: none;
-  
 }
 .button label {
+  background-color: #5e5e5e;
   margin: 5px;
   height: 250px;
   width: 250px;
@@ -93,15 +61,14 @@
   background-repeat: no-repeat;
 }
 .button.da label{
-	background-image: url(../assets/alldays.png);
+  background-image: url(../assets/alldays.png);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 .button.ea label{
-	background-image: url();
+  background-image: url();
   background-size: 200px;
   background-repeat: no-repeat;
-  margin-left: 350px;
 }
 
 .button.ab label{
@@ -120,13 +87,13 @@
   background-repeat: no-repeat;
 }
 .button.db label{
-	background-image: url();
+  background-image: url();
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .button.ac label{
- 	background-image: url(../assets/cartwo.png);
+   background-image: url(../assets/cartwo.png);
   background-size: 200px;
   background-repeat: no-repeat;
 }
@@ -158,38 +125,24 @@
   background-repeat: no-repeat;
 }
 .button.dd label{
-	background-image: url(../assets/shop.png);
+  background-image: url(../assets/shop.png);
   background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .pane {
   height: 1000px;
-}
-.pane.a {
-  background: white;
-}
-.pane.b {
-  background: white;
-}
-.pane.c {
-  background: white;
-}
-.pane.d {
   background: white;
 }
 .pane.d .submit_tag{
-	text-align: center;
+  text-align: center;
 }
 
 .company_result img{
   width: 220px;
 }
 .company_result ul{
-margin: 0 15%;
-}
-.submit_tag{
-  position: ;
+  text-align: center;
 }
 .money{
   font-family: 'Raleway', sans-serif;
