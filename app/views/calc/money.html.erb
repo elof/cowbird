@@ -19,12 +19,14 @@
     <% if @has_house %>
       <%= link_to 'https://www.airbnb.com/rooms/new', :target => "_blank" do %>
         <%= image_tag 'airbnb.jpg', :class => 'airbnb_icon', :alt => 'Airbnb' %>
+        <script>mixpanel.track("airbnb_clicks");</script>
       <% end %>
     <% end %>
 
     <% if @has_four_car %>
       <%= link_to "http://www.side.cr/drivers", :target => "_blank" do %>
         <%= image_tag "sidecar.png", :class => 'sidecar_icon', :alt => "Sidecar" %>
+        <script>mixpanel.track("sidecar_clicks");</script>
       <% end %>
 
       <%= link_to 'http://www.getaround.com', :target => "_blank" do %>
@@ -35,6 +37,7 @@
     <% if @has_skills %>
       <%= link_to 'https://www.taskrabbit.com/become-a-taskrabbit', :target => "_blank" do %>
         <%= image_tag 'taskrabbit.jpg', :class => 'taskrabbit_icon', :alt => 'Taskrabbit' %>
+      <script>mixpanel.track("taskrabbit_clicks");</script>
       <% end %>
     <% end %>
   </ul>
@@ -53,6 +56,7 @@
       <%= f.label :location %>:
       <%= f.text_field :location %><br>
       <%= f.submit %>
+      <script>mixpanel.track("submits_email");</script>
     <% end %>
   </div>
 </div>

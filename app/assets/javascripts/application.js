@@ -15,13 +15,4 @@
 
   });
 
-mixpanel.track("label");
-
-mixpanel.track("twitter");
-
-mixpanel.track("lyft_clicks");
-mixpanel.track("sidecar_clicks");
-mixpanel.track("airbnb_clicks");
-mixpanel.track("uber_clicks");
-mixpanel.track("taskrabbit_clicks");
-mixpanel.track("yerdle_clicks");
+mixpanel.track("fills_out_form");
