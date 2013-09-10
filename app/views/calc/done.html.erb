@@ -1,13 +1,14 @@
 <header>All Done</header>
 
 <div class='twitter'>
-Tell your friends, chirp.
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.cowbird.co" data-text="What's your cowbird number? Find out now #sharingiscaring" data-size="large">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  Tell your friends, chirp.
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.cowbird.co" data-text="What's your cowbird number? Find out now #sharingiscaring" data-size="large">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 
 <!-- will this work??? -->
 <div class='companies'>
+
 <h2>If you want to learn more or check out some other companies, here are some awesome links.</h2>
 <ul>
 
@@ -19,19 +20,36 @@ Tell your friends, chirp.
 <div class="getaround_clicks"><%= link_to image_tag('../assets/getaround.png', :class => 'getaround_icon', :alt => 'Getaround'), 'http://www.getaround.com', :target => "_blank" %></div>
 <div class="yerdle_clicks"><%= link_to image_tag('../assets/yerdle.jpg', :class => 'yerdle_icon', :alt => 'Yerdle'), 'http://www.yerdle.com', :target => "_blank" %></div>
 </ul>
+
+  <h2>If you want to learn more or check out some other companies, here are some awesome links.</h2>
+  <ul>
+    <%= link_to "http://www.side.cr/drivers", :target => "_blank" do %>
+      <%= image_tag 'sidecar.png', :class => 'sidecar_icon', :alt => 'Sidecar' %>
+    <% end %>
+    <%= link_to 'http://www.lyft.me/drivers', :target => "_blank" do %>
+      <%= image_tag 'lyft.png', :class => 'lyft_icon', :alt => 'Lyft' %>
+    <% end %>
+    <%= link_to 'https://www.airbnb.com/rooms/new', :target => "_blank" do %>
+      <%= image_tag 'airbnb.jpg', :class => 'airbnb_icon', :alt => 'Airbnb' %>
+    <% end %>
+    <%= link_to 'https://partners.uber.com/#!/uberx/sf', :target => "_blank" do %>
+      <%= image_tag 'uber.png', :class => 'uber_icon', :alt => 'Uber' %>
+    <% end %>
+    <%= link_to 'https://www.taskrabbit.com/become-a-taskrabbit', :target => "_blank" do %>
+      <%= image_tag 'taskrabbit.jpg', :class => 'taskrabbit_icon', :alt => 'Taskrabbit' %>
+    <% end %>
+    <%= link_to 'http://www.getaround.com', :target => "_blank" do %>
+      <%= image_tag 'getaround.png', :class => 'getaround_icon', :alt => 'Getaround' %>
+    <% end %>
+    <%= link_to 'http://www.yerdle.com', :target => "_blank" do %>
+      <%= image_tag 'yerdle.jpg', :class => 'yerdle_icon', :alt => 'Yerdle' %>
+    <% end %>
+  </ul>
+
 </div>
  
 <%= render :partial => 'footer' %>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-42632860-1', 'cowbird.co');
-  ga('send', 'pageview');
-
-</script>
+<%= render partial: 'google_analytics' %>
 
 <%#= link_to image_tag("facebook.png", :class => "facebook_icon", :alt => "Facebook"), "http://www.facebook.com/mypage", :target => "_blank" %>

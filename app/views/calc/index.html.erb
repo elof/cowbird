@@ -1,29 +1,19 @@
 <%= render :partial => 'header' %>
-		
-		<div class='intro_one'>
-		how much do you think you can make with your extra time...
-		</div>
-	
-		<div class='intro_two'>
-		and the things you already own?
-		</div>
-
-		<div class='start'>
-		<a href="/start"><nav>Get Started</nav></a>
-		</div>
-<div>
-<%= render :partial => 'footer' %>
+    
+<div class='intro_one'>
+  how much do you think you can make with your extra time...
 </div>
-s
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42632860-1', 'cowbird.co');
-  ga('send', 'pageview');
+<div class='intro_two'>
+  and the things you already own?
+</div>
 
-</script>
+<div class='start'>
+  <a href="/start"><nav>Get Started</nav></a>
+</div>
 
+<div>
+  <%= render :partial => 'footer' %>
+</div>
 
+<%= render partial: 'google_analytics' %>
