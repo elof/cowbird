@@ -113,32 +113,7 @@
 
 <script>
 
-  $(document).ready(function() {
-
-    $("label").on("click", function() {
-    	switch (this.parentElement.parentElement.parentElement.children[0].className) {
-
-    		case "q_one": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_two"}); break;
-
-    		case "q_two": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_three"}); break;
-
-    		case "q_three": console.log(this.previousElementSibling.checked = true); $.smoothScroll({ scrollTarget: ".q_four"}); break;
-
-    	}
-    	
-    });
-
-  });
 
 </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42632860-1', 'cowbird.co');
-  ga('send', 'pageview');
-
-</script>
